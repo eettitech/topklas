@@ -938,7 +938,7 @@ input,
 
 /* ----------- TOPBAR ------------*/
 .topbar{
-	background:#0f0f0f;
+	background:#262261;
 	color:#fff;
 	font-size:14px;
 }
@@ -966,7 +966,7 @@ input,
 .topbar ul.social_top li a:hover, .topbar ul.social_top li a:focus{
 	background:#d11149;
 	border-color:#d11149;
-	color:#fff;
+/*	color:#fff;*/
 }
 .topbar span.info {
   display: inline-block;
