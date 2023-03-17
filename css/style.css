@@ -1214,7 +1214,7 @@ nav.navbar.bootsnav.navbar-fixed #menu_bars{
 .pushmenu{ 
   background: #fff;
   padding:20px 15px;
-  width: 270px;
+  width: 350px;
   height: 100%;
   top: 0;
   z-index: 1100;
@@ -1223,24 +1223,24 @@ nav.navbar.bootsnav.navbar-fixed #menu_bars{
 }
 .pushmenu.pushmenu-right{ padding:20px 20px 20px 40px;}
 .pushmenu-left{
-  left: -270px;
+  left: -350px;
 }
 .pushmenu-left.pushmenu-open{
   left: 0;
   box-shadow:3px 0 3px -3px #c2c2c2;
 }
 .pushmenu-push-toright{
-  left: 270px;
+  left: 350px;
 }
 .pushmenu-right{
-	right: -270px;
+	right: -350px;
 }
 .pushmenu-right.pushmenu-open{
   right: 0;
   box-shadow:3px 0 3px 3px #c2c2c2;
 }
 .pushmenu-push-toleft{
-  left: -270px;
+  left: -350px;
 }
 .pushmenu .push-logo{
 	display:block;
