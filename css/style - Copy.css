@@ -551,15 +551,6 @@ ul.social_icon li a.instagram:after{
 ul.social_icon li a.vimo:after{
   background:#4EBBFF;
 }
-ul.social_icon li a.linkedin:after{
-  background:#d11149;
-}
-ul.social_icon li a.location:after{
-  background:#d11149;
-}
-ul.social_icon li a.website:after{
-  background:#d11149;
-}
 ul.social_icon li a:after{
   position: absolute;
   content: '';
@@ -1793,7 +1784,6 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 }
 .page_header{
 	background:url(../images/page-tittle.jpg) no-repeat;
-	padding:15% 0 0 0;
 }
 #counter{
 	background:url(../images/counter.jpg) no-repeat;
