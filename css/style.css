@@ -517,11 +517,11 @@ ul.social_icon{}
 ul.social_icon li a{
   color: #0f0f0f;
   display: block;
-  font-size:16px;
-  height:36px;
-  line-height:38px;
+  font-size:21px;
+  height:40px;
+  line-height:44px;
   text-align: center;
-  width:36px;
+  width:40px;
   border-radius:4px;
   position:relative;
   z-index:1;
