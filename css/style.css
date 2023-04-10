@@ -376,6 +376,15 @@ p{
   z-index: -1;
   content:'';
 }
+
+#rev_slider_video {
+	display: block;
+}
+
+#vid {
+	display: none;
+}
+
 .btn_common:hover::after, .btn_common:focus::after,
 #course_slider .item:hover .btn_common.blue:after,
 .course:hover .btn_common.yellow:after,
@@ -2784,7 +2793,7 @@ nav.navbar.bootsnav #menu_bars{
 }
 #courses , #parallax, .page_header, #counter{
 	background-position:center center !important;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 .detail_course .info_label:last-child{
 	display:block;
@@ -2862,6 +2871,21 @@ nav.navbar.bootsnav #menu_bars{
 #map{ height:290px;}
 .footer_logo.bottom25 > img {
   width: 90px;
+}
+
+#rev_slider_video {
+	display: none;
+}
+
+#vid {
+	display: block;
+}
+
+#parallax {
+	visibility: hidden;
+}
+.padding-top-1 {
+	padding-top: 128px;
 }
 
 }
