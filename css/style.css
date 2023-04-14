@@ -2802,6 +2802,14 @@ nav.navbar.bootsnav #menu_bars{
 .single_post{
 	font-size:12px;
 }
+.sst_branding{
+	display: initial !important;
+	padding-top: 25px;
+}
+.abt_app{
+width: 100%;
+height: 100%;
+}
 
 }
 
