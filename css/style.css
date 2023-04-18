@@ -1806,63 +1806,63 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 }
 .page_header{
 	background:url(../images/page-tittle.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header1{
 	background:url(../images/learning-solutions.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header2{
 	background:url(../images/dynamic-content.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header3{
 	background:url(../images/virtual-learning.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header4{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header5{
 	background:url(../images/search_engine.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header6{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header7{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header8{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header9{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header10{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header11{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header12{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header13{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 .page_header14{
 	background:url(../images/self-assessment.jpg) no-repeat;
-	padding:15% 0 0 0;
+	padding:25% 0 0 0;
 }
 #counter{
 	background:url(../images/counter.jpg) no-repeat;
@@ -2794,6 +2794,7 @@ nav.navbar.bootsnav #menu_bars{
 #courses , #parallax, .page_header, #counter{
 	background-position:center center !important;
 	/*visibility: hidden;*/
+	background-attachment: revert;
 }
 .detail_course .info_label:last-child{
 	display:block;
@@ -2894,7 +2895,8 @@ height: 100%;
 }
 
 #parallax {
-	visibility: hidden;
+/*	visibility: hidden;*/
+	display: none;
 }
 .padding-top-1 {
 	padding-top: 128px;
@@ -2920,6 +2922,7 @@ height: 100%;
 	 
 .page_header .page-content .page_nav{
   width: 100%;
+  background-attachment: revert;
 }
 .scrollToTop{
 	right:15px;
